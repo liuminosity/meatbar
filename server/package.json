@@ -1,0 +1,13 @@
+{
+  "name": "beatbar_server",
+  "version": "1.0.0",
+  "author": "liuminosity",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "freeport": "^1.0.5",
+    "fs-extra": "^3.0.1",
+    "knex": "^0.13.0",
+    "sqlite3": "^3.1.8"
+  }
+}

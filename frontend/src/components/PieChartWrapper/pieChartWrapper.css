@@ -1,0 +1,10 @@
+.piechart {
+  min-height:400px;
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.piechart.faded {
+  opacity: 0.05;
+  transition: opacity 100ms ease-in;
+}

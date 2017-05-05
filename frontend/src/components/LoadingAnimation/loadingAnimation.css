@@ -1,0 +1,25 @@
+.loading_gif-enter {
+  opacity: 0.01;
+}
+
+.loading_gif-enter.loading_gif-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.loading_gif-leave {
+  opacity: 1;
+}
+
+.loading_gif-leave.loading_gif-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+
+.loading-gif {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  margin-left: -20%;
+}

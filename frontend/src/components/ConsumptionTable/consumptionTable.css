@@ -1,0 +1,11 @@
+.panel {
+  min-height: 200px;
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.panel.faded {
+  opacity: 0;
+}
+
+

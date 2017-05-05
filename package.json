@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "./node_modules/.bin/webpack -d --watch"
+    "install_all": "npm install && cd server && npm install && cd ..",
+    "dev": "./node_modules/.bin/webpack -d --watch",
+    "server": "cd server && node index.js"
   },
   "repository": {
     "type": "git",
